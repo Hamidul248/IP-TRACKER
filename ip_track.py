@@ -111,6 +111,6 @@ print(f"\n 📍 \033[0;92m Lat & Lon : \033[0;93m{r['lat']},{r['lon']}")
 print(f"\n 🕛 \033[0;92m Time Zone : \033[0;93m{r['timezone']}")
 print(f"\n 📲 \033[0;92m Provider : \033[0;93m{r['as']}\033[0;0m")
 
-print("\n\n\033[1;33mLive Location : https:// www.google.com/maps/search/?api=1 & query= {r['lat']},{r['lon']}")
+print("\n\n\033[1;33mLive Location : https:// www.google.com/maps/search/?api=1&query= {r['lat']},{r['lon']}")
 
 print('\n		✅🔰 \033[1;92mIP Tracking Success')
